@@ -3,7 +3,7 @@ public class Exam02 {
 
 	public static void main(String[] args) {
 		
-		// whileÀ» È°¿ëÇÏ¿© 1ºÎÅÍ 100±îÁöÀÇ ¼ıÀÚÁß 3ÀÇ ¹è¼ö¸¸ Ãâ·ÂÇÏ½Ã¿À
+		// whileì„ í™œìš©í•˜ì—¬ 1ë¶€í„° 100ê¹Œì§€ì˜ ìˆ«ìì¤‘ 3ì˜ ë°°ìˆ˜ë§Œ ì¶œë ¥í•˜ì‹œì˜¤
 		
 		int num = 0;
 		
@@ -24,8 +24,8 @@ public class Exam02 {
 			num++;
 			if(num%3 == 0)
 				System.out.println(num);
-		}
-		
+		} 
+		//
 		
 		
 		
