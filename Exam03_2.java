@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Exam03_2 {
 
 	public static void main(String[] args) {
-		// ·£´ı ¼ıÀÚ ÃßÃâÇÏ±â.
-		// ·¹ÆÛ·±½º ÀÚ·áÇüÀº Ã¹±ÛÀÚ°¡ ´ë¹®ÀÚ·Î ½ÃÀÛÇÑ´Ù.
+		// ëœë¤ ìˆ«ì ì¶”ì¶œí•˜ê¸°.
+		// ë ˆí¼ëŸ°ìŠ¤ ìë£Œí˜•ì€ ì²«ê¸€ìê°€ ëŒ€ë¬¸ìë¡œ ì‹œì‘í•œë‹¤.
 
 		Random random = new Random();
 		Scanner sc = new Scanner(System.in);
@@ -19,23 +19,24 @@ public class Exam03_2 {
 
 			while (true) {
 
-				// ex - ()¾È¿¡ ¹üÀ§¸¦ ÁöÁ¤ÇÏ¸é 0ºÎÅÍ 4±îÁö ³ª¿Â´Ù >>1ºÎÅÍ ³ª¿À°Ô ÇÏ°í½ÍÀ¸¸é µÚ¿¡ +1
+				// ex - ()ì•ˆì— ë²”ìœ„ë¥¼ ì§€ì •í•˜ë©´ 0ë¶€í„° 4ê¹Œì§€ ë‚˜ì˜¨ë‹¤ >>1ë¶€í„° ë‚˜ì˜¤ê²Œ í•˜ê³ ì‹¶ìœ¼ë©´ ë’¤ì— +1
 
 				System.out.print(num1 + " + " + num2 + " = ");
 				int answer = sc.nextInt();
 
-				// answer °ªÀÌ num1+num2°ª°ú µ¿ÀÏÇÏ¸é Á¤´ä Ãâ·Â, ¾Æ´Ï¶ó¸é ¿À´ä Ãâ·Â
+				// answer ê°’ì´ num1+num2ê°’ê³¼ ë™ì¼í•˜ë©´ ì •ë‹µ ì¶œë ¥, ì•„ë‹ˆë¼ë©´ ì˜¤ë‹µ ì¶œë ¥
 				int result = num1 + num2;
 				if (answer == result) {
-					System.out.println("Á¤´ä");
-					break;  //°¡Àå °¡±î¿î ¹İº¹¹®À» ºüÁ®³ª°£´Ù.(ÇöÀç break°¡ ¼ÓÇØÀÖ´Â ¹İº¹¹®À» ºüÁ®³ª°£´Ù.)
+					System.out.println("ì •ë‹µ");
+					break;  //ê°€ì¥ ê°€ê¹Œìš´ ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ê°„ë‹¤.(í˜„ì¬ breakê°€ ì†í•´ìˆëŠ” ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ê°„ë‹¤.)
 				} else {
-					System.out.println("¿À´ä");
+					System.out.println("ì˜¤ë‹µ");
 
 				}
 			}
-			// System.out.println(result == answer ? "Á¤´ä" : "¿À´ä" );
+			// System.out.println(result == answer ? "ì •ë‹µ" : "ì˜¤ë‹µ" );
 
 		}
 	}
 }
+//
