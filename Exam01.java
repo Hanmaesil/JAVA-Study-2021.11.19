@@ -3,7 +3,7 @@ public class Exam01 {
 
 	public static void main(String[] args) {
 		
-		//whillÀ» »ç¿ëÇØ¼­ ÄÜ¼Ö¿¡ 1ºÎÅÍ 10±îÁö Ãâ·Â
+		//whillì„ ì‚¬ìš©í•´ì„œ ì½˜ì†”ì— 1ë¶€í„° 10ê¹Œì§€ ì¶œë ¥
 		
 		int a= 1;
 		
@@ -20,7 +20,7 @@ public class Exam01 {
 //			if(a > 10)
 //				break;
 //		}
-		
+//		
 		
 		
 		
